@@ -5,6 +5,7 @@ import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
+import Footer from './Footer'
 import Nav from './Nav';
 
 const PortfolioContainer = () => {
@@ -32,6 +33,7 @@ const PortfolioContainer = () => {
         <div className='App'>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            <Footer />
         </div>
     )
 }

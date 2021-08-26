@@ -4,6 +4,36 @@ nav {
   background-size: cover;
   padding: 3% 0% 3% 0%;
 }
+
+.about {
+  min-height: 100vh;
+  margin-top: 5%;
+}
+.about-me {
+  color: #f0f8ff !important;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.avatar {
+  border-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App {
+  background: linear-gradient(#bf64e6, #2a236d);
+}
+
+.App-header {
+  min-height: 100vh;
+  color: aliceblue;
+}
+
+.App-link {
+  color: #61dafb;
+} 
+
 .nav-item {
   color: #f0f8ff !important;
   font-family: 'Press Start 2P', cursive;
@@ -30,29 +60,76 @@ nav {
 
 .lead {
   margin-top: 7%;
+  padding-bottom: 2%;
   text-align: center;
   line-height: 2em;
   font-size: 25px !important;
 }
 
-.App {
-
-}
-
-.App-header {
-  min-height: 100vh;
+.heading {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
   color: aliceblue;
+  padding-bottom: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel{
+  padding: 0% 10% 0% 10%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-item{
+  height: 25rem;
+}
+
+.carousel-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background: url(../src/images/profile-background-3.jpeg);
+  background-size: cover;
+  padding: 3% 0% 3% 0%;
+}
+
+.coreTech {
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mongo {
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.express {
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.react {
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.node {
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
