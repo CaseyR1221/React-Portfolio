@@ -5,17 +5,39 @@ nav {
   padding: 3% 0% 3% 0%;
 }
 
+li {
+  line-height: 2em;
+}
+
 .about {
   min-height: 100vh;
   margin-top: 5%;
 }
 .about-me {
-  color: #f0f8ff !important;
+  font-size: 1.2em;
+  color: #3edc3e !important;
   font-family: 'Press Start 2P', cursive;
+}
+
+.sub-section {
+  font-family: 'Press Start 2P', cursive;
+  color: #3edc3e !important;
+}
+
+.sub-section-heading {
+  color: #f0f8ff  !important;
 }
 
 .avatar {
   border-radius: 25%;
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-symbol {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -132,4 +154,31 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-left {
+  min-height: 100vh;
+  background-image: url(../src/images/resume-left-image.jpeg);
+  background-size: cover;
+}
+
+.resume-right {
+  min-height: 100vh;
+  background-color: white !important;
+}
+
+.resume-PDF-button {
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  min-height: 100vh;
 }
