@@ -10,8 +10,7 @@ const hero = () => {
                     <p class="lead">Hi! Welcome to my site. My name is Casey, and I'm a Web Developer specializing in the MERN stack.</p>
                 </div>
             </div>
-
-            <CarouselPage />
+                <CarouselPage />
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 const Resume = () => {
   return (
     <div id="resume">
-      <Container>
+      <Container >
         <Row>
           <Col className="resume-left">
             <h1>HEllo</h1>
@@ -59,7 +59,7 @@ const Resume = () => {
               <h4>Education</h4>
               <div className="content pb-3">
                 <div className="university">
-                    <strong>University of Central Florida</strong>
+                    <strong>Valencia College</strong>
                 </div>
                 <div className="college pb-1">
                     <em>College of Computer and Information Science</em>

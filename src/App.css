@@ -45,6 +45,9 @@ li {
 
 .App {
   background: linear-gradient(#bf64e6, #2a236d);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -59,6 +62,10 @@ li {
 .nav-item {
   color: #f0f8ff !important;
   font-family: 'Press Start 2P', cursive;
+}
+
+.home {
+  min-height: 100vh;
 }
 
 .hero {
@@ -97,12 +104,9 @@ li {
 
 .carousel{
   padding: 0% 10% 0% 10%;
-
+  height: 20rem;
 }
 
-.carousel-item{
-  height: 25rem;
-}
 
 .carousel-image{
   display: block;
@@ -117,43 +121,48 @@ li {
 }
 
 .coreTech {
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .mongo {
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .express {
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .react {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .node {
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.pImage {
+  height: 400px;
+  width: 600px;
 }
 
 #contact {

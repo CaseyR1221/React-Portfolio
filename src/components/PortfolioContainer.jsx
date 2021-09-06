@@ -32,8 +32,11 @@ const PortfolioContainer = () => {
     return (
         <div className='App'>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+
             {renderPage()}
-            <Footer />
+
+              <Footer />
+
         </div>
     )
 }

@@ -9,26 +9,26 @@ import node from '../images/node.png'
 
 const CarouselPage = () => {
     return (
-        <section id="carousel" className="pb-2">
-                <h2 className="heading">Expertise</h2>
-                <Carousel>
-                    <Carousel.Item className='carousel-item'>
-                        <Image src={core} className='coreTech carousel-image' />
-                    </Carousel.Item>
-                    <Carousel.Item className='carousel-item'>
-                        <Image src={mongo} className='mongo carousel-image' />
-                    </Carousel.Item>
-                    <Carousel.Item className='carousel-item'>
-                        <Image src={express} className='express carousel-image' />
-                    </Carousel.Item>
-                    <Carousel.Item className='carousel-item'>
-                        <Image src={react} className='react carousel-image' />
-                    </Carousel.Item>
-                    <Carousel.Item className='carousel-item'>
-                        <Image src={node} className='node carousel-image' />
-                    </Carousel.Item>
-                </Carousel>
-            </section>
+        <div className="carousel pb-2">
+            <h2 className="heading">Expertise</h2>
+            <Carousel>
+                <Carousel.Item className='carousel-item'>
+                    <Image src={core} className='coreTech carousel-image' />
+                </Carousel.Item>
+                <Carousel.Item className='carousel-item'>
+                    <Image src={mongo} className='mongo carousel-image' />
+                </Carousel.Item>
+                <Carousel.Item className='carousel-item'>
+                    <Image src={express} className='express carousel-image' />
+                </Carousel.Item>
+                <Carousel.Item className='carousel-item'>
+                    <Image src={react} className='react carousel-image' />
+                </Carousel.Item>
+                <Carousel.Item className='carousel-item'>
+                    <Image src={node} className='node carousel-image' />
+                </Carousel.Item>
+            </Carousel>
+        </div>
     )
 }
 
